@@ -4,8 +4,8 @@ import { configureCurrentRelativeHumidity } from './characteristic/CurrentRelati
 import { configureCurrentTemperature } from './characteristic/CurrentTemperature';
 
 const SCHEMA_CODE = {
-  AIR_QUALITY: ['pm25_value'],
-  PM2_5: ['pm25_value'],
+  AIR_QUALITY: ['pm25_value', 'voc_value'],
+  PM2_5: ['pm25_value', 'voc_value'],
   PM10: ['pm10_value', 'pm10'],
   VOC: ['voc_value'],
   CURRENT_TEMP: ['va_temperature', 'temp_indoor', 'temp_current'],
