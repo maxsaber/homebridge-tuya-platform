@@ -183,6 +183,7 @@ export default class AccessoryFactory {
       case 'pm2.5':
       case 'pm25cgq':
       case 'hjjcy':
+      case 'jqbj':
         handler = new AirQualitySensorAccessory(platform, accessory);
         break;
       case 'hps':
